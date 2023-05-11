@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <!-- 숫자 입력칸 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="1.숫자저장테스트"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/etInt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="원하는 숫자값 입력"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnInt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="저장" />
+
+
+    <!-- 문자 입력칸 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="2.문자저장테스트"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/etString"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="원하는 문자값 입력"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/btnString"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="저장" />
+
+</LinearLayout>

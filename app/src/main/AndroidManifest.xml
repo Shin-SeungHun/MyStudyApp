@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:windowSoftInputMode="adjustNothing">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- GPS 관련 -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyStudyApp"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".Ex32webPhpMain"
+            android:exported="false" />
+        <activity
+            android:name=".Ex32webPhpJoin"
+            android:exported="false" />
+        <activity
+            android:name=".Ex32webPhpLogin"
+            android:exported="false" />
+        <activity
+            android:name=".Ex31ImageLayoutEx"
+            android:exported="false" />
+        <activity
+            android:name=".Ex30Viewpager2Ex"
+            android:exported="false" />
+        <activity
+            android:name=".Ex29FragmentLayout"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".JoinActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Ex28RecyclerViewFriendList"
+            android:exported="false" />
+        <activity
+            android:name=".Ex28RecyclerViewFriendDel"
+            android:exported="false" />
+        <activity
+            android:name=".Ex28RecyclerViewFriendEdit"
+            android:exported="false" />
+        <activity
+            android:name=".Ex28RecyclerViewFriendAdd"
+            android:exported="false" />
+        <activity
+            android:name=".Ex27RecyclerAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".Ex27RecyclerViewEx2"
+            android:exported="false" />
+        <activity
+            android:name=".Ex26CustomAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".Ex26RecyclerViewEx"
+            android:exported="false" />
+        <activity
+            android:name=".Ex24SQLiteMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Ex24JoinOkActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Ex24SQLiteLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Ex24SQLiteJoinActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Ex25FriendItems"
+            android:exported="false" />
+        <activity
+            android:name=".Ex25SQLiteEdit"
+            android:exported="false" />
+        <activity
+            android:name=".Ex25SQLiteDel"
+            android:exported="false" />
+        <activity
+            android:name=".Ex25SQLiteFriendAdd"
+            android:exported="false" />
+        <activity
+            android:name=".Ex25SQLiteFriendListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Ex23TimerEx"
+            android:exported="false" />
+        <activity
+            android:name=".Ex22DDayActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Ex21GpsMapEx"
+            android:exported="false" />
+        <activity
+            android:name=".Ex20FriendDelActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Ex20FriendEditActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Ex18ListViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Ex18BearItem"
+            android:exported="false" />
+        <activity
+            android:name=".Ex20FriendAddActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Ex20FriendItems"
+            android:exported="false" />
+        <activity
+            android:name=".Ex20FriendListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Ex19ListViewListItem"
+            android:exported="false" />
+        <activity
+            android:name=".Ex19ListViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Ex17PhoneCreateActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Ex16FrameLayoutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Ex15SharedPreferences2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Ex14SharedPreferencesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Ex13HandlerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Ex12SoccerGame"
+            android:exported="false" />
+        <activity
+            android:name=".Ex11GalleryViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Ex10MediaPlayerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Ex9VideoViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Ex8WebViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Ex1JoinDetail"
+            android:exported="false" />
+        <activity
+            android:name=".Ex5DataReceiveActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Ex5DataActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Ex4GifActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Ex1JoinActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Ex1LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Ex2CalcActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Ex3AniActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Ex6SpinnerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Ex7SwitchActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".IntroActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".GoogleMapSearchActivity" />
+    </application>
+
+</manifest>
